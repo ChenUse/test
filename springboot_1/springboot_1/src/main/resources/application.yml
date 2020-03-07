@@ -1,0 +1,14 @@
+#语法: 1.K-V结构   使用":"号进行链接.
+#      2.有层级关系 注意缩进(空格or tab键)
+#      3.添加value时 注意空格.
+server:
+  port: 8090   #指定端口号信息
+
+#指定项目发布路径 tomcat 发布到哪个目录下?发布到webapp目录下的/ROOT中
+  servlet:
+    context-path: /   #发布默认路径
+
+#实现属性赋值操作  jdbc.driver
+jdbc:
+  driver: mysqlDriver
+  name:   mysql
